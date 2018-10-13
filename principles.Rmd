@@ -1,0 +1,61 @@
+---
+title: Simple principles for reverse-engineering reproducible solutions to environmental management challenge cases.
+author:
+  - name: Christopher J. Lortie
+    email: lortie@yorku.ca
+    affiliation: Biology, York University
+    corresponding: lortie@yorku.ca
+  - name: Malory Owen
+    email: maloryowen@gmail.com
+    affiliation: York University
+address:
+  - code: York University
+    address: Biology, 4700 Keele St. Toronto, ON, Canada, M3J1P3
+
+abstract: |
+  An environmental management challenge case is an opportunity to use fundamental science to inform evidence-based decisions for the environment.  Contemporary science is embracing open science and increasingly conscious of reproduciblility. Synergistically, applying these two paradigms in concert advances our capacity to move beyond context dependency and singlular thinking to reverse engineer solutions from published scientific evidence associated with one challenge to many. Herein, we provide a short list of principles that can guide those that seek solutions and syntheses to address environmental management through primary scientific literature.
+  
+author_summary: |
+  Grand challenges require grand solutions. Environmental management cannot neglect fundamental science as a substrate for effective decision making.
+
+bibliography: mybibfile.bib
+output: rticles::plos_article
+csl: plos.csl
+---
+
+# Introduction
+
+Context.
+Definitions.
+Link between fundamental scientific inquiry and environmental management. Ten simple priniciples are proposed as a mean to promote engagement with scientific literature to generalize solutions.
+
+# The principles
+1. Reframe the problem as challenge.
+
+2. Describe the scope and extent of the challenge.
+
+3. Explicitly link the basic science to management implications and policy.
+
+4. Propose implications of ignoring this challenge.
+
+5. State the direct human needs associated with this challenge.
+
+6. List at least one limitation of the study and explain.
+
+7. Explore the benefits of minimal intervention for environmental managers and stakeholders.
+
+8. List the tools applied to this challenge.
+
+9. Explain the role that the primary tool addressed for the challenge - i.e. identification/research evidence, management/solution applied, or inform policy.
+
+10. Apply the tool to another challenge or explain how it is general and scaleable.
+
+# Implications
+Big picture thinking.
+Creative reuse of solutions from one domain to another.
+Functional use of scientific literature.
+Goals-directed engagement with scientific evidence.
+
+
+
+# References {#references .unnumbered}
