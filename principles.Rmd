@@ -13,10 +13,10 @@ address:
     address: Biology, 4700 Keele St. Toronto, ON, Canada, M3J1P3
 
 abstract: |
-  An environmental management challenge case is an opportunity to use fundamental science to inform evidence-based decisions for the environment.  Contemporary science is embracing open science and increasingly conscious of reproduciblility. Synergistically, applying these two paradigms in concert advances our capacity to move beyond context dependency and singlular thinking to reverse engineer solutions from published scientific evidence associated with one challenge to many. Herein, we provide a short list of principles that can guide those that seek solutions and syntheses to address environmental management through primary scientific literature.
+  An environmental management challenge case is an opportunity to use fundamental science to inform evidence-based decisions for the environmental managers.  Contemporary science is embracing open science and increasingly conscious of reproduciblility.  Synergistically, applying these two paradigms in concert advances our capacity to move beyond context dependency and singlular thinking to reverse engineer solutions from published scientific evidence associated with one challenge to many. Herein, we provide a short list of principles that can guide those that seek solutions to address environmental management through primary scientific literature.
   
 author_summary: |
-  Grand challenges require grand solutions. Environmental management cannot neglect fundamental science as a substrate for effective decision making.
+  Grand challenges require grand solutions. Environmental management cannot neglect fundamental science as a substrate for effective decision making, and scientists should be conscious of how their science can be used by managers. 
 
 bibliography: mybibfile.bib
 output: rticles::plos_article
@@ -25,36 +25,71 @@ csl: plos.csl
 
 # Introduction
 
-Context.
-Definitions.
-Link between fundamental scientific inquiry and environmental management. Ten simple priniciples are proposed as a mean to promote engagement with scientific literature to generalize solutions.
+Context: Conservation actions most often are in the hands of either legislators (indirect impactors) or environmental managers (direct impactors).  To focus on the latter, managers, unlike politicians and other general audiences, typically have scientific backgrounds, and are comfortable navigating technical literature.  However, managers' engagement with scientific literature could be improved.  This is not to say that managers aren't seeking evidence based decisions, but rather that our goal is to minimize the gap in communication between basic science that isn't a direct study of an ecosystem and managers who are working with immediate, real-world problems.  Because of this, managers are often constrained to ecological studies with direct connection to their sites, problems, and species, limiting their available working evidence pile. 
+
+Research scientists are also bound by their profession in some capacities.  Basic science can improve our understanding of systems in which applied science functions, and is often the principal research done in ecology.  However, because of the system in which academic science functions, research that is more general in scope is preferred.  We don't seek to condemn research that is applicable to a wide range of systems, but rather to express how to keep  ecology functional. 
+
+We use the "Ten Simple Rules" format pioneered by Phillip Bourne in the Computational Biology field (Bourne 2005); we believe that, by distilling the concepts which promote engagement with scientific literature outside of the research community, managers can learn to rely on broader sources of scientific knowledge to make decisions.  Additionally, researchers can better understand the perspective of managers, allowing them to do science that is more applicable to managers without compromising their interests.  Here, we will outline and discuss simple "principles" scientists can use to make their research more applicable to managers, and managers can use to identify basic science that fits their needs.
+
+Definitions: 
+**Environmental management challenge case (emc2)*: A problem presented in scientific literature that, when redefined and processed using the 10 Principles, can result in a solution to the original problem.
+**Reverse-engineered reproducible solution (rers)*: A suggested solution to an emc2, found by identifying all the components of solutions first.  It should be applicable to multiple local-extent challenges when tweaked to fit the circumstances. 
+**Tool*: In this case, a tool is a methodology researchers use to help managers identify solutions to their challenge.  Any tool is linked to its respective rers. 
+
 
 # The principles
-1. Reframe the problem as challenge.
 
-2. Describe the scope and extent of the challenge.
+**1. Reframe the problem as challenge.**
+Doom-and-gloom is a pervasive mentality in ecology and environmental sciences which can reduce productivity and problem solving.  It can shut down even the most motivated of minds--but beyond the issue of motivation, reframing a problem as a *challenge* can reveal avenues of solutions that may otherwise remain hidden.  For example, consider the problem of human-wildlife conflict between carnivores and the people living near the Ruaha National Park boundary in Tanzania.  The *problem* is that 98.5% of people percieve wildlife as a threat to their livestock, resulting in increased opportunity for human-wildlife conflict (Dickman et al. 2014).  Rephrased, the challenge might be: how can we decrease negative perception of wildlife in areas with high human-wildlife conflict opportunity?  It's a small change in syntax, but a huge change in directional thought.  This perspective is also the most compatible format to devise a solution using the following principles. 
 
-3. Explicitly link the basic science to management implications and policy.
+**2. Describe the scope and extent of the challenge.**
+Often necessary when writing grants, the ability to define the scope of the challenge will make identifying an appropriate solution easier.   The challenge can exist on a local, regional, or global scale.  While many studies perform their observations or experiments on a sample area, the challenge associated with their findings extends beyond the region of interest in the study. In our human-wildlife conflict example, the scope of the study itself is of local interest to the area surrounding the Southern border of the Ruaha National Park, but because human-wildlife conflict exists in all parts of the world, the extent of the challenge is global.
 
-4. Propose implications of ignoring this challenge.
+**3. Explicitly link the basic science to management implications and policy.**
+Before trying to identify a solution, one must have a full grasp of how the results of a study could impact management strategy or legislative action.  For example, depredation of livestock impacted 61.1% of households in our example challenge, but was less responsible for livestock loss than disease or theft.  Knowing the widespread, but shallow nature of the problem should influence managers to consider making any solutions available to all people threatened by depredation.  This is perhaps the most obvious principle, but also one of the most essential to defining a solution using *basic scientific evidence*.   
 
-5. State the direct human needs associated with this challenge.
+**4. Propose implications of ignoring this challenge.**
+This principle is perhaps the best tool when advocating for the implementation of a solution.  Being able to describe the impact the challenge could have on a system (if left unchecked) will help clarify the severity of the challenge. Will this problem, left to fester, have minimal or severe consequences? And on what scale will it affect a system? Where will we and the ecosystem in question end up?  Knowing the answers to these questions will help develop a reasonable solution that fits the challenge.  In our human-wildlife conflict example, anti-carnivore sentiment will likely only grow as climate change and pressures to confine pastoral herders makes livestock more difficult to raise (Jones & Thorton 2009, Lindsey et al. 2009).  Considering that many large carnivores are already threatened/endagered, further anthropogenic pressures on the populations could lead to severe declines in populations, or even the extinction of keystone species.  This problem can be found across the globe wherever humans and animals are found coexisting (Towns et al. 2009, Bagchi & Mishra 2006, Johnson et al. 2006), but is often associated with underying human-human conflict (Dickman 2010). 
 
-6. List at least one limitation of the study and explain.
+**5. State the direct human needs associated with this challenge.**
+To expand on principle 4, considering the direct needs of humans is an essential part of the process.  Conseravtionists have a tendency to react sentimentally, considering the intrinsic value of the ecosystem and its right to exist.  This is valid, and should not be overlooked.  However, it is all too easy for those who value "nature" to dismiss ecosystem services.  Identifying  anthropogenic needs will help a problem solver create a solution that is appropriate for the challenge, and prevent the manifestation of new challenges. To bring it back to our human-wildlife conflict challenge, a direct need of humans in the Ruaha region is to have livestock with which to make a living. It is true that a solution *could* be to remove livestock; that way, the carnivores will no longer be seen as predators of non-existent livestock.  Obviously, this is not a viable solution as the humans interacting within this system will suffer, rendering the solution unethical and unsustainable. The error in this example may seem obvious, but explicitly identifying all needs associated with a challenge will help organize the problem-solving process, and prevent any potential missteps.  It is always a good idea to ask the group affected--particularly if they are a marginalized group--what their direct needs are as well. 
 
-7. Explore the benefits of minimal intervention for environmental managers and stakeholders.
+**6. List at least one limitation of the study and explain.**
+While the peer review process should eliminate any poorly executed science, nearly all studies have some limitation.  Critically reading the study associated with the challenge can mean the difference between success and failure of a later implemented management solution that otherwise follows all other principles presented.  For example, conflating causation with correlation can be a fatal misstep if making real-world decisions based on a correlated trend.  However, it's an unfortunate truth that conservationists and managers often have to make decisions on a real-world challenge without fully understanding the system in which they work, since a solution is often needed immediately in order to prevent a catastrophic loss.  Still, knowing the relative strength of a solution can help prepare for a range of outcomes.  Perhaps the most important step, however, is to identify limitations of the study in order to best advocate for an eventual solution's implementation.  Being well versed in counter-arguments is essential in any debate, and it is no different when advocating for a solution.
 
-8. List the tools applied to this challenge.
+**7. Explore the benefits of minimal intervention for stakeholders.**
+The culmination of principles of 4, 5, and 6, principle 7 is another idea that can feel uncomfortable to a traditional conservationist.  Why not just do *everything* so that all our bases are covered?  Unfortunately, resources to conserve the environment are limited, and managers must maximize their "profits" (positive restoration/conservation outcomes).  Ideally, a well-designed solution takes minimal resouce allocation, and has minimal incidental negative effects. 
 
-9. Explain the role that the primary tool addressed for the challenge - i.e. identification/research evidence, management/solution applied, or inform policy.
+**8. List the tools applied to this challenge.**
+This principle is most critical for researchers wishing to make their science more amenable to management use, but is also helpful to managers seeking relevant papers beyond studies which focus specifically on their projects.  In an environmental management challenge case study, there is usually one primary tool the researchers use to produce their results. However, there can be many more than one! These tools usually take the form of common methodologies that can be used across subdisciplines, and are easily identifiable.  Look to the methods to identify these tools.  Some examples of primary tools we have found include:
+*meta-analyis (Castanho et al. 2015, Busch & Ferretti-Gallon 2017)
+*systematic review (Lortie et al. 2018)
+*citizen science (Burkle et al. 2013, Conrad & Hilchey 2011)
+*team science (Nielsen et al. 2017)
+*R (McCarthy et al. 2010)
+*mapping (Halpern et al. 2008)
+*big data/open access databases (Sillero et al. 2014, Dengler et al. 2011, Maldonado et al. 2015)
+*modelling (Vogt et al. 2018)
+*surveys (Wassen et al. 2005)
+*biomonitoring (Miguel et al. 2017, Rainbow 2002)
+*evolutionary change/population viability genetic analysis (Stoops et al. 2017)
+*economic incentivization monitoring (Cerda et al. 2018)
+*human health and wellbeing monitoring (Mergler et al. 2007, Dickman et al. 2014)
+This list could potentially be expanded upon, and new tools can result in new solutions. 
 
-10. Apply the tool to another challenge or explain how it is general and scaleable.
+**9. Explain the role that the primary tool addressed for the challenge--i.e. identification/research evidence, management/solution applied, or inform policy.**
+Continuing from priciple 8, this principle focuses on which tool used in a study is primarily responsible for producing results.  A good place to start may be the tile, as often a tool will be highlighted; for example, "Odonata (Insecta) as a tool for the biomonitoring of environmental quality" (Miguel et al. 2017).  After identifying which tool is primary, consider the role that tool could play in finding the solution to the challenge.  Three examples of roles a tool could play are:
+*identification/research evidence* which seeks to better our understanding of systems so that we may more effectively manage them.   It is the most "pure" role of tools in basic science, and is also the most common in typical ecology papers.  Tools that could play this role include surveys, meta analysis, team science, systematic review, citizen science, R, mapping, open access databases, modelling.
+*management/solution applied* which observes the effectiveness of management strategies.  Tools that could play this role include biomonitorying and evolutionary change/population viability genetic analysis. 
+*inform policy* which seeks to help legislators make decisions about environmental challenges.   They often take the form of anthropocentric studies that consider ecological or environmental policy.  Any tool could play this role, but some tools which fit most neatly into this role include economic incentivization monitoring and human health and wellbeing monitoring.
+Depending on how a tool is used, these tools may play multiple roles in a solution, or may play an entirely different role than described. Most importantly, the primary tool's role informs the direction our solution should take, based on our challenge study. 
+
+**10. Apply the tool to another challenge or explain how it is general and scaleable.**
+Finally, use the primary tool explored in principle 9 to broaden the applicability of the challenge's solution.  This principle ties together the idea that reverse-engineered reproducible solutions are relevant to more than just the environmental management challenge case unpacked.   After doing all this work, it makes sense to seek and understand its reproducibility for future work!   Beyond efficiency, it also addresses the key challenge we are trying to address through these principles: Basic science can be more applicable than it sometimes appears. 
 
 # Implications
-Big picture thinking.
-Creative reuse of solutions from one domain to another.
-Functional use of scientific literature.
-Goals-directed engagement with scientific evidence.
+
+At its core, our 10 principles for reverse-engineering solutions to solve environmental challenges are guidelines to improve science communication.  Usually, when we talk about sci comm, the burden of effective communication is on the researcher or advocate (because usually we are directing our sci comm at general audiences who are not obligated to give the researcher their attention).  But in animal behavior, communication requires at least two parties: a *sender* and a *reciever*.  In this instance, the researcher is a sender and the manager is the reciever.  For this communication to be successful, both parties must actively participate in this reuse of solutions from one domain to another.  Luckily, both parties in our scenario have incentive to engage with effective communication.   Professional advocacy is a common priority for ecologists, who hope their work influences better decision-making of both indirect and direct impactors.  And managers, of course, wish to improve their project outcomes.  Increased consumption of scientific evidence by managers, and basic science that is more palatable to a broader audience written by researchers, will result in *functional use of scientific literature*. Overall, better collaboration will encourage the realization of the common goal: solving an environmental management challenge.  
 
 
 
