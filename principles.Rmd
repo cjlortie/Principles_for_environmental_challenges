@@ -1,13 +1,13 @@
 ---
 title: Simple principles for reverse-engineering reproducible solutions to environmental management challenge cases.
 author:
+  - name: Malory Owen
+    email: maloryowen@gmail.com
+    affiliation: York University
   - name: Christopher J. Lortie
     email: lortie@yorku.ca
     affiliation: Biology, York University
     corresponding: lortie@yorku.ca
-  - name: Malory Owen
-    email: maloryowen@gmail.com
-    affiliation: York University
 address:
   - code: York University
     address: Biology, 4700 Keele St. Toronto, ON, Canada, M3J1P3
