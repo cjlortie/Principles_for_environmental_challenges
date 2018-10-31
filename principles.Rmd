@@ -74,12 +74,13 @@ This principle proposes that the primary tool is reproducible if it can be appli
 
 At its core, these principles can distribute the burden of scientific communication between scientists and stakeholders and embodies a spirit of dialog between senders and receivers (or between producers and consumers). Reuse is also not the sole criterion for useful science nor should it be. Professional advocacy and knowledge mobilization are increasingly important priorities for universities and science in general [@Pace2010]. Evidence-based decision making is a critical area for growth and knowledge in many disciplines [@Roy-Byrne2010;@Tranfield2003;@Aarons2011] - not just environmental management. Increased consumption of scientific evidence by managers and basic science that is more palatable to a broader audience written by researchers will result in increased functional use of scientific literature. Collaboration with stakeholders will facilitate this process, and open science will be pivotal.
 
-Table 1: Examples of tools found in environmental mamangement challenge case papers that could be used to identify reverse-engineered reproducible solutions. 
-```{r, include=FALSE}
+Table 1: Tools for environmental manangement challenges that can be derived from fundamental research papers.
+
+```{r, warning=FALSE, message=FALSE, echo=FALSE}
+library(tidyverse)
 library(knitr)
-Table1 <- read.csv("~/Courses/EnviroMgmt/Principles_for_environmental_challenges/Table1.xlsx")
-Table1view <- kable(Table1)
-Table1view
+table1 <- read_csv("table1.csv")
+knitr::kable(table1)
 ```
 
 meta-analysis [@Castanho2015]; [@Busch2017]
