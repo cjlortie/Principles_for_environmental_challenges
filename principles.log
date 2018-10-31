@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  31 OCT 2018 08:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  31 OCT 2018 08:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -599,16 +599,16 @@ Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    size: 15304 bytes
 (epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
 ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 197.
+(epstopdf)             \includegraphics on input line 198.
 Package epstopdf Info: Output file is already uptodate.
 <PLOS-submission-eps-converted-to.pdf, id=4, 216.81pt x 35.13126pt>
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
 <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf  used on input li
-ne 197.
+ne 198.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
 
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 197.
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 198.
 
 [1
 
@@ -622,15 +622,15 @@ Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    size: 15304 bytes
 (epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
 ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 259.
+(epstopdf)             \includegraphics on input line 266.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
 <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf  used on input li
-ne 259.
+ne 266.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
 
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 259.
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 266.
 
 [2]
 Package epstopdf Info: Source file: <PLOS-submission.eps>
@@ -641,17 +641,36 @@ Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    size: 15304 bytes
 (epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
 ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 331.
+(epstopdf)             \includegraphics on input line 327.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
 <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf  used on input li
-ne 331.
+ne 327.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
 
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 331.
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 327.
 
 [3]
+Package epstopdf Info: Source file: <PLOS-submission.eps>
+(epstopdf)                    date: 2018-09-21 17:50:51
+(epstopdf)                    size: 283246 bytes
+(epstopdf)             Output file: <PLOS-submission-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-09-21 17:51:17
+(epstopdf)                    size: 15304 bytes
+(epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
+ted-to.pdf PLOS-submission.eps>
+(epstopdf)             \includegraphics on input line 391.
+Package epstopdf Info: Output file is already uptodate.
+File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
+<use PLOS-submission-eps-converted-to.pdf>
+Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf  used on input li
+ne 391.
+(pdftex.def)             Requested size: 144.54pt x 23.42201pt.
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 391.
+
+[4]
 
 ! LaTeX Error: Environment longtable undefined.
 
@@ -659,11 +678,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.385 \begin{longtable}
+l.392 \begin{longtable}
                        []{@{}ll@{}} 
 Here is how much of TeX's memory you used:
- 11254 strings out of 492649
- 171697 string characters out of 6129622
+ 11256 strings out of 492649
+ 171713 string characters out of 6129622
  322311 words of memory out of 5000000
  14923 multiletter control sequences out of 15000+600000
  8467 words of font info for 50 fonts, out of 8000000 for 9000
