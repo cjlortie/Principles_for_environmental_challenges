@@ -1,13 +1,13 @@
 ---
 title: Simple principles for engineering reproducible solutions to environmental management challenges.
 author:
-  - name: Malory Owen
-    email: maloryowen@gmail.com
-    affiliation: York University
   - name: Christopher J. Lortie
     email: lortie@yorku.ca
     affiliation: Biology, York University
     corresponding: lortie@yorku.ca
+  - name: Malory Owen
+    email: maloryowen@gmail.com
+    affiliation: York University
 address:
   - code: York University
     address: Biology, 4700 Keele St. Toronto, ON, Canada, M3J1P3
@@ -18,7 +18,7 @@ abstract: |
 author_summary: |
   Grand challenges require grand solutions. Environmental management cannot neglect fundamental science as a substrate for effective decision making, and scientists should be conscious of how their science can be used by managers. 
 
-bibliography: mybibfile.bib
+bibliography: bibliography.bib
 output: rticles::plos_article
 csl: plos.csl
 ---
@@ -58,7 +58,7 @@ State the direct needs of humans as part of the process of generating reproducib
 There is no perfect experiment [@Ruxton2017] or synthesis [@Kotiaho2002]. Critically reading the study associated with the challenge can mean the difference between success and failure of a later implemented management solution that otherwise follows all other principles presented here.  A clear analysis of causation and correlation can help avoid a fatal misstep and ensures effective framing of expected outcomes with an environmental intervention for conservationists.  This is not to say that interventions need always be cause-effect studies or that evidence-based decisions cannot be made with compelling preliminary evidence or mensurative data. We are simply proposing that a statement of the relative strength of evidence and gaps in the research provides a future direction for additional research and for implementation.  
 
 **7. Explore the benefits of minimal intervention for stakeholders.**
-Resources are limiting, and at times, the business-as-usual model can provide a guide to intervention for some environmental management challenges [@Samie2018;@Mosnier2017]. At the minimum, exploration of a hope for the best strategy or minimal intervention is critical because of costs.  Business-as-usual models can also provide an economic mechanism to value ecosystems services [@Fu2018;@Karttunen2018], and whilst this is not without debate, this can expand the breath of stakeholders and potential investors in a solution for a particular challenge. A best and worst case scenario analysis is also likely a frequent need for many environmental challenges because of inertia in the structures that we use to manage people and resources.
+Resources are limiting, and at times, the business-as-usual model can provide a guide to intervention for some environmental management challenges [@Ferguson2015;@Mosnier2017]. At the minimum, exploration of a hope for the best strategy or minimal intervention is critical because of costs.  Business-as-usual models can also provide an economic mechanism to value ecosystems services [@Fu2018;@Karttunen2018], and whilst this is not without debate, this can expand the breath of stakeholders and potential investors in a solution for a particular challenge. A best and worst case scenario analysis is also likely a frequent need for many environmental challenges because of inertia in the structures that we use to manage people and resources.
 
 **8. List the tools applied to this challenge.**
 In an environmental management challenge case study, there is typically at least one primary tool that the researchers used to explore a challenge, and there are many (Table 1). The tools in basic biology and ecology relevant to environmental management can be reproducible it at least conceptually, they can be replicated in another system or applied to similar challenge - i.e. citizen science as a means to collect environmental data [@McKinley2017] is relevant to many of the challenges we face including global warming, water quality, and declining biodiversity.
@@ -76,27 +76,8 @@ At its core, these principles can distribute the burden of scientific communicat
 
 Table 1: Tools for environmental manangement challenges that can be derived from fundamental research papers.
 
-```{r, warning=FALSE, message=FALSE, echo=FALSE}
-library(tidyverse)
-library(knitr)
-table1 <- read_csv("table1.csv")
-knitr::kable(table1)
 
-```
 
-meta-analysis [@Castanho2015]; [@Busch2017]
-systematic review [@Lortie2018]
-citizen science [@Burkle2013]; [@Conrad2011]
-team science [@Nielsen2017]
-R [@McCarthy2010]
-mapping [@Halpern2008]
-big data/open access databases [@Sillero2014]; [@Dengler2011]; [@Maldonado2015]
-modelling [@Vogt2018]
-surveys [@Wassen2005]
-biomonitoring [@Miguel2017]
-evolutionary change/population viability genetic analysis [@Stoops2016]
-economic incentivization monitoring [@Cerda2018]
-human health and well-being monitoring [@Mergler2007]; [@Dickman2014]
 
 
 # References {#references .unnumbered}
