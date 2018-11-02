@@ -14,7 +14,7 @@
   |systematic review   |[@Lortie2018]        |
   |team science        |[@Nielsen2017]       |
   
-  ```{r, warning=FALSE, echo=FALSE, message=FALSE}
+```{r, warning=FALSE, echo=FALSE, message=FALSE}
 library(tidyverse)
 library(knitr)
 table1 <- read_csv("table1.1.csv")
