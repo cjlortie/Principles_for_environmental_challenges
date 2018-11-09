@@ -1,0 +1,38 @@
+---
+title: ""
+output: pdf_document
+---
+**Simple principles for engineering reproducible solutions to environmental management challenges.**  
+
+
+
+Cover letter  
+November 9th, 2018.  
+--------------------------------
+
+Dear Professor Söderström and Editorial Board,
+
+In collaborating with environmental stakeholders, conservationists, researchers, and students, it is evident that, at times, accessibility of the scientific literature is a limitation in supporting evidence-based decision making. Reuse and reproducibility are major issues in all scientific endeavours including research relevant to the environment. Here, we present ten simple principles for both scientists and practitioners to consider in making this scientific literature more functional for decisioning critical grand challenges we face with respect to the human environment. This is a brief, direct perspective contribution.
+
+
+We would also like to take this opportunity to suggest referees.  
+
+1. Dr. Gavin Stewart.  Senior Lecturer in Evidence Synthesis at Newcastle University. <gavin.stewart@ncl.ac.uk>    
+
+2. Dr. Timothy Parker. Professor and expert in reproducible science. Whitman College. <parkerth@whitman.edu>    
+
+3. Dr. Clint Kelly. Professor and pioneer of reproducible science for behaviour. UQAM. <kelly.clint@uqam.ca>  
+
+4. Dr. Scott Butterfield. The Nature Conservancy Senior Scientist, USA. <scott_butterfield@tnc.org>  
+
+5. Dr. Thomas M. Lewinsohn. Author of super Ambio paper on this [**topic**](https://link.springer.com/article/10.1007%2Fs13280-014-0539-2). <thomasl@unicamp.br> or any of authors on this paper.  
+
+Please do not hesitate to contact us if any clarification is needed on this perspective piece. We admire the vision of Ambio, and we are confident that is manuscript is a great fit. We will make this paper open access if accepted to ensure that managers and stakeholders can engage with the principles proposed.  
+
+
+All the best,  
+Christopher Lortie and Malory Owen.  
+<lortie@yorku.ca>  
+
+
+
