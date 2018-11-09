@@ -1,0 +1,675 @@
+%% Submissions for peer-review must enable line-numbering
+%% using the lineno option in the \documentclass command.
+%%
+%% Preprints and camera-ready submissions do not need
+%% line numbers, and should have this option removed.
+%%
+%% Please note that the line numbering option requires
+%% version 1.1 or newer of the wlpeerj.cls file, and
+%% the corresponding author info requires v1.2
+
+\documentclass[fleqn,10pt]{wlpeerj} % for preprint submissions
+
+% ZNK -- Adding headers for pandoc
+
+\setlength{\emergencystretch}{3em}
+\providecommand{\tightlist}{
+\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{lipsum}
+\usepackage[unicode=true]{hyperref}
+\usepackage{longtable}
+
+
+
+\usepackage{lipsum}
+
+\title{Simple principles for engineering reproducible solutions to
+environmental management challenges.}
+
+\author[]{}
+
+
+
+
+%
+% \author[1]{First Author}
+% \author[2]{Second Author}
+% \affil[1]{Address of first author}
+% \affil[2]{Address of second author}
+% \corrauthor[1]{First Author}{f.author@email.com}
+
+% 
+
+\begin{abstract}
+An environmental management challenge is an opportunity to use
+fundamental science to inform evidence-based decisions for environmental
+stakeholders and conservationists. Contemporary science is embracing
+open science and increasingly conscious of reproduciblility.
+Synergistically, applying these two paradigms in concert advances our
+capacity to move beyond context dependency and singlular thinking to
+reverse engineer solutions from published scientific evidence associated
+with one challenge to many. Herein, we provide a short list of
+principles that can guide those that seek solutions to address
+environmental management through primary scientific literature.
+% Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text.
+\end{abstract}
+
+\begin{document}
+
+\flushbottom
+\maketitle
+\thispagestyle{empty}
+
+\section*{Introduction}\label{introduction}
+\addcontentsline{toc}{section}{Introduction}
+
+Conservation decisions can reside with legislators or with environmental
+managers. To focus on the latter, managers typically have scientific
+backgrounds and routinely navigate the technical literature. However,
+engagement with scientific literature is non-trivial for all
+practitioners because of time, access, relevance of the science, and
+reporting standards. Environmental managers and conservationists need to
+be able to use evidence to inform decisions (Koontz and Thomas 2018;
+Cash et al. 2003). However, there can be a gap in communication between
+basic science and management for at least three reasons. Firstly, the
+research is not a direct study of an ecosystem, and an immediate,
+real-world solution is needed by managers - preferably with a
+demonstrable outcome and reasonable cost estimate (Iacona et al. 2018;
+Naidoo et al. 2006). This is a very real limitation in the primary
+science literature restoration ecology for instance (Lortie et al.
+2018). Secondly, the link between the biology or ecology present in the
+literature is not articulately connected to the similar process for the
+system at hand. There are notable examples with journals just as the
+Journal of Applied Ecology, Basic and Applied Ecology, the Journal of
+Environmental Engineering, and many others. Nonetheless, there remains a
+vast pool of opportunity for solution development from publications in
+other journals. Context-specific findings in science are a legitimate
+and useful means to advance discovery, but at times, studies from one
+system can be re-purposed for insights into another. Finally, the
+capacity to see the forest for the trees for even large-scale or broad
+basic research study can be a challenge. Science can be very specialized
+(Baron 2010), and mobilizing knowledge for solutions requires both
+detailed expertise, scientific synthesis tools (Lortie 2014), or a focus
+on identifying the salient elements associated with a study (Lewinsohn
+et al. 2014; Hao 2018). Often, seeing the forest also requires sampling
+many trees. This leads to the general proposal here that experts can
+promote reproducible and mobile knowledge for many fundamental
+scientific endeavors by considering these principles. This is both a set
+of principles for how to make your research potentially reusable by
+environmental managers and conservationists (Gerstner et al. 2017) and
+inform solutions for the environmental crisis.
+
+An environmental management challenge is a problem presented in
+scientific literature or society that, when redefined and reviewed using
+these principles, can result in a solution to the original problem.
+Typically, a challenge is ethical, legal, social, or derived from
+implications associated with research and evidence of change or
+anthropogenic stress (Acocella 2015). Grand challenges for the
+environment in particular are ones that necessitate connections between
+disciplines and require evidence from potential studies that examine
+different components of the environment such as climate, ecology,
+species biology, or research from any number of levels (Macpherson and
+Segarra 2017). A (reverse-engineered) reproducible solution is a
+suggested solution to a challenge derived from identifying all the
+components of the challenge. In software engineering, this process
+includes analysis of the architecture of a system, examining the
+relationships between subsystems, and creating a mental model of how the
+system functions (Fiutem and Antoniol, n.d.). The same process can be
+applied to basic science as a system for supporting environmental
+management decisions. It should be applicable to multiple local-extent
+challenges when adjusted to fit the circumstances (like a software
+application that can run under different operating systems). Finally, a
+tool or solution is the desired outcome from the primary research to
+support evidence-based decision making in conservation. In this case, a
+tool is a methodology researchers use that can facilitate managers to
+either identify best ways to measure/identify issues or to provide
+solutions for their specific challenge. Any tool is linked to its
+respective reproducible solution by the fundamental concepts of
+reproducibility (Baker 2016). These can include primarily conceptual
+replication, i.e.~repeating the ideas, but there are many other
+solutions. Here, we propose that both direct replication (replicating
+the same approach in another context) and conceptual replication
+(repeated tests of the same concept but with different methods) (Kelly
+2006) will advance our capacity to explore reproducibility of basic
+science to different challenges associated with environmental
+management. The primary goal is to escape the `everything is
+context-specific' assumption sometimes applied to many natural science
+sub-disciplines.
+
+The heuristic developed here was inspired by the `ten simple rules'
+paper format pioneered by Phillip Bourne in the field of computational
+biology (Bourne and Chalupa 2006). We propose that by distilling the
+concepts that promote engagement with scientific literature outside of
+the research community, managers can rely on broader sources of
+scientific knowledge to make decisions. Additionally, researchers can
+better understand the perspective of managers facilitating science and
+scientific communication that is more relevant to managers without
+compromising their research respective programs. Here, we will outline
+and discuss simple ``principles'' scientists can use to make their
+research more applicable to managers and that managers can in turn use
+to identify basic science that fits their needs.
+
+\section*{The principles}\label{the-principles}
+\addcontentsline{toc}{section}{The principles}
+
+\textbf{1. Reframe the problem as challenge.} Doom-and-gloom is a
+pervasive theme in the reporting and social media discussions of ecology
+and environmental sciences that can reduce our productivity and capacity
+to solve problems. It can shut down even the most motivated of minds --
+but beyond the issue of motivation, reframing a problem as a
+\emph{challenge} can reveal solution sets that otherwise remain hidden.
+For example, consider the problem of human-wildlife conflict between
+carnivores and the people living near the Ruaha National Park boundary
+in Tanzania. The \emph{problem} is that 98.5\% of people perceive
+wildlife as a threat to their livestock resulting in increased
+likelihood for human-wildlife conflict (Amy J. Dickman et al. 2014).
+Re-framed, the challenge can be to improve perception of wildlife in
+areas with high human-wildlife conflict opportunities. It is a small
+change in semantics but a potentially profound change in direction. The
+challenge can also include improving experiences for people with
+wildlife or reducing their losses to wildlife.
+
+\textbf{2. Describe the scope and extent of the challenge.} Defining the
+scope of a challenge conceptually and the extent geographically will
+ensure that potential solutions fit the challenge. Moving across scales
+is a common issue in ecology (Sandel 2015), and proposing a spatial
+scale, using common terms, and describing the breadth of the challenge
+will accelerate interdisciplinary solutions (i.e.~the wildlife-human
+challenge above is ecological and societal). The challenge can be
+problematic on local, regional, or global scales, and solutions can be
+needed for each. Conceptually, the scope is broad in the human-wildlife
+conflict example whilst the extent is primarily local to the area
+surrounding the Southern border of the Ruaha National Park. Articulating
+scope and scale informs assessment of severity.
+
+\textbf{3. Explicitly link the basic science to management implications
+and policy.} Perhaps the most facile principle, a simple description and
+definition of the basic scientific evidence in a study and how it can be
+reused is a fundamental step in linking science to evidence-based
+decision making for environmental challenges. In the wildlife-human
+challenge, depredation of livestock impacted 61.1\% of households in
+some form, but livestock losses due to disease or theft were actually
+the most consistent negative drivers of total loss (Amy J. Dickman et
+al. 2014). Perception of loss and actual losses were not necessarily
+equivalent, and culture was shaping subsequent conflicts not direct
+evidence. Consequently, a clear statement of evidence can illuminate the
+most viable solution sets in some instances.
+
+\textbf{4. Propose implications of ignoring this challenge.} A
+description of the impact a challenge on a system if left unchecked will
+help clarify the severity of the challenge. The trickle down effects and
+indirect implications of the challenge should also be examined. For
+instance, anti-carnivore sentiment will likely only grow as climate
+change and pressures to confine pastoral herders makes livestock more
+difficult to raise (P. G. Jones and Thornton 2009; Lindsey, Romañach,
+and Davies-Mostert 2009). Many large carnivores are already threatened
+and endangered, and further anthropogenic pressures on the populations
+will lead to severe declines in populations including potential
+extinction of keystone species (Towns et al. 2009; Bagchi and Mishra
+2006; Johnson et al. 2006); but it is often associated with underlying
+human-human conflict (A. J. Dickman 2010).
+
+\textbf{5. State the direct human needs associated with this challenge.}
+State the direct needs of humans as part of the process of generating
+reproducible solutions for environmental challenges. The intrinsic value
+of the ecosystem is impossible to quantify (Davidson 2013), but linking
+the challenge and its solutions to direct human needs makes it less
+likely to be dismissed. Identifying anthropogenic needs will help a
+problem solver create a solution that is appropriate for the challenge,
+and it can also prevent the emergence of new related challenges or
+pressures on the system in question. This principle can also include
+engagement with stakeholders as a mechanism to inform benefits and
+solutions (Reed 2008; Colvin, Witt, and Lacey 2016).
+
+\textbf{6. List at least one limitation of the study and explain.} There
+is no perfect experiment (Ruxton and Colgrave 2017) or synthesis
+(Kotiaho and Tomkins 2002). Critically reading the study associated with
+the challenge can mean the difference between success and failure of a
+later implemented management solution that otherwise follows all other
+principles presented here. A clear analysis of causation and correlation
+can help avoid a fatal misstep and ensures effective framing of expected
+outcomes with an environmental intervention for conservationists. This
+is not to say that interventions need always be cause-effect studies or
+that evidence-based decisions cannot be made with compelling preliminary
+evidence or mensurative data. We are simply proposing that a statement
+of the relative strength of evidence and gaps in the research provides a
+future direction for additional research and for implementation.
+
+\textbf{7. Explore the benefits of minimal intervention for
+stakeholders.} Resources are limiting, and at times, the
+business-as-usual model can provide a guide to intervention for some
+environmental management challenges (Ferguson 2015; Mosnier et al.
+2017). At the minimum, exploration of a hope-for-the-best strategy or
+minimal intervention is critical because of costs. Business-as-usual
+models can also provide an economic mechanism to value ecosystems
+services (Fu et al. 2018; Karttunen et al. 2018), and whilst this is not
+without debate, this can expand the breadth of stakeholders and
+potential investors in a solution for a particular challenge. A best and
+worst case scenario analysis is also likely a frequent need for many
+environmental challenges because of inertia in the socio-political
+structures that we use to manage people and resources.
+
+\textbf{8. List the tools applied to this challenge.} In an
+environmental management challenge case study, there is typically at
+least one primary tool that the researchers used to explore a challenge,
+but there are many tools such as meta-analyses (Busch and
+Ferretti-Gallon 2017), big data (S. Hampton et al. 2013), mapping
+(Halpern et al. 2008), modelling (Vogt, Sharma, and Leavitt 2018),
+citizen science (Burkle, Marlin, and Knight 2013), and team science
+(Nielsen et al. 2017). The tools in basic biology and ecology relevant
+to environmental management can be reproducible if, at least
+conceptually, they can be replicated in another system or applied to
+similar challenge -- i.e.~citizen science as a means to collect
+environmental data (McKinley et al. 2017) is relevant to many of the
+challenges we face including global warming, water quality, and
+declining biodiversity.
+
+\textbf{9. Link the primary reproducible tool to the outcome.} A
+reproducible science tool can provide a means to collect data, detect
+patterns, directly solve an environmental challenge, or inform policy.
+If the paper was a direct test of basic ecology for an environmental
+challenge, this can be very straightforward. For instance, the paper
+entitled ``Odonata (Insecta) as a tool for the bio-monitoring of
+environmental quality'' (Miguel et al. 2017) clearly provides a means to
+measure and detect. However, the other proposed roles can address
+challenges in a diversity of ways. The identification of or provision of
+research evidence is the most `basic' role, and it is also likely the
+most typical role for much of ecology for example. Tools that can
+function in this capacity include surveys, citizen science data
+collection, mapping, open-access data, and modelling to predict changes.
+Tests in the second category that directly examine the efficacy of a
+management strategy or intervention can further include bio-monitoring
+(Miguel et al. 2017), mitigation and remediation experiments (Zhu, Lu,
+and Zhang 2010), and population demography studies (Botero et al. 2015).
+Studies that inform policy are typically more indirect and synthetic and
+can take the form of anthropocentric studies that consider ecological or
+environmental policy. Any of the above tools can serve this role, but
+some tools that fit most squarely include economic incentivization
+models (Tilman, Levin, and Watson (2018)), human health impact studies
+(Chiabai et al. 2018), and human well-being monitoring associated with
+environmental interventions (McKinnon 2015).
+
+\textbf{10. Apply the tool to another challenge or explain how it is
+generalizable.} This principle proposes that the primary tool is
+reproducible if it can be applied to another challenge or context. It
+ties together the concept that reverse-engineered reproducible solutions
+are relevant to more than the unpacked, single environmental management
+challenge case. This can promote increased in efficiency for tackling
+novel environmental challenges as they emerge, and it also supports the
+overarching philosophy here for basic science that we cannot continue to
+ignore reuse given the global environmental needs for better decision
+making.
+
+\section*{Implications}\label{implications}
+\addcontentsline{toc}{section}{Implications}
+
+These principles can distribute the burden of scientific communication
+between scientists and stakeholders and embodies a spirit of dialog
+between senders and receivers (or between producers and consumers). This
+heuristic can also enable adaptive management for the environmental
+sciences. The philosophy behind adaptive management is that managing and
+learning should be connected and iterative for decisioning for natural
+resources (Williams and Brown 2016). Decision making adjusts as
+understanding improves both through doing and through learning. This is
+not a new approach to managing the environment but requires a well
+articulated framework to be an active process for stakeholders and to
+improve long-term conservation outcomes (McDonald-Madden et al. 2010).
+Making the research literature more functional through these principles
+will accelerate the learning phase of adaptive management. We can make
+deliberation (i.e.~planning) and iteration (i.e.~testing) integrate with
+evidence by adopting these principles (Williams and Brown 2016). Reuse
+is also not the sole criterion for useful science nor should it be, but
+professional advocacy and knowledge mobilization are increasingly
+important priorities for universities and science in general (Pace et
+al. 2010). Evidence-based decision making is a critical area for growth
+and knowledge in many disciplines (Roy-Byrne et al. 2010; Tranfield,
+Denyer, and Smart 2003; Aarons, Hurlburt, and Horwitz 2011) -- not just
+environmental management. Increased consumption of scientific evidence
+by managers and practitioners that is more palatable to a broader
+audience written by researchers will result in increased functional use
+of scientific literature. Collaboration with stakeholders will
+facilitate this process, and open science will be pivotal to adaptive
+management opportunities. Using at least some of these principles in the
+discussion sections of the primary research we report will increase the
+stickiness of our ideas and enable better connections between evidence
+and outcome, challenge and solution, and people and nature.
+
+\section*{References}\label{references}
+\addcontentsline{toc}{section}{References}
+
+\hypertarget{refs}{}
+\hypertarget{ref-Aarons2011}{}
+Aarons, Gregory A., Michael Hurlburt, and Sarah Mc Cue Horwitz. 2011.
+``Advancing a conceptual model of evidence-based practice implementation
+in public service sectors.'' \emph{Administration and Policy in Mental
+Health and Mental Health Services Research} 38 (1): 4--23.
+doi:\href{https://doi.org/10.1007/s10488-010-0327-7}{10.1007/s10488-010-0327-7}.
+
+\hypertarget{ref-Acocella2015}{}
+Acocella, Valerio. 2015. ``Grand Challenges in Earth Science: Research
+Toward a Sustainable Environment.'' Journal Article. \emph{Frontiers in
+Earth Science} 3: 68.
+\url{https://www.frontiersin.org/article/10.3389/feart.2015.00068}.
+
+\hypertarget{ref-Bagchi2006}{}
+Bagchi, S., and C. Mishra. 2006. ``Living with large carnivores:
+Predation on livestock by the snow leopard (Uncia uncia).''
+\emph{Journal of Zoology} 268 (3): 217--24.
+doi:\href{https://doi.org/10.1111/j.1469-7998.2005.00030.x}{10.1111/j.1469-7998.2005.00030.x}.
+
+\hypertarget{ref-Baker2016}{}
+Baker, M. 2016. ``Is There a Reproducibility Crisis?'' Journal Article.
+\emph{Nature} 533: 452--54.
+
+\hypertarget{ref-Baron2010}{}
+Baron, N. 2010. \emph{Escape from the Ivory Tower: A Guide to Making
+Your Science Matter}. Book. Washington, DC: Island Press.
+
+\hypertarget{ref-Botero2015}{}
+Botero, Carlos A., Franz J. Weissing, Jonathan Wright, and Dustin R.
+Rubenstein. 2015. ``Evolutionary Tipping Points in the Capacity to Adapt
+to Environmental Change.'' Journal Article. \emph{Proceedings of the
+National Academy of Sciences of the United States of America} 112 (1):
+184--89. \url{https://www.jstor.org/stable/26460375}.
+
+\hypertarget{ref-Bourne2006}{}
+Bourne, Philip E., and Leo M. Chalupa. 2006. ``Ten simple rules for
+getting grants.'' \emph{PLoS Computational Biology} 2 (2): 59--60.
+doi:\href{https://doi.org/10.1371/journal.pcbi.0020012}{10.1371/journal.pcbi.0020012}.
+
+\hypertarget{ref-Burkle2013}{}
+Burkle, Laura A., John C. Marlin, and Tiffany M Knight. 2013.
+``Plant-Pollinator Interactions over 120 Years: Loss of Species,
+Co-Occurrence, and Function.'' \emph{Science} 339 (March): 1611--6.
+
+\hypertarget{ref-Busch2017}{}
+Busch, Jonah, and Kalifi Ferretti-Gallon. 2017. ``What drives
+deforestation and what stops it? A meta-analysis.'' \emph{Review of
+Environmental Economics and Policy} 11 (1): 3--23.
+doi:\href{https://doi.org/10.1093/reep/rew013}{10.1093/reep/rew013}.
+
+\hypertarget{ref-Cash2003}{}
+Cash, D.W., W.C. Clark, F. Alcock, N.M. Dickson, N. Eckley, D.H. Guston,
+J. Jager, and R.B. Mitchell. 2003. ``Knowledge systems for sustainable
+development.'' \emph{Proceedings of the National Academy of Sciences of
+the United States of America} 100 (14): 8086--91.
+doi:\href{https://doi.org/10.1063/1.4795010}{10.1063/1.4795010}.
+
+\hypertarget{ref-Chiabai2018}{}
+Chiabai, Aline, Sonia Quiroga, Pablo Martinez-Juarez, Sahran Higgins,
+and Tim Taylor. 2018. ``The nexus between climate change, ecosystem
+services and human health: Towards a conceptual framework.''
+\emph{Science of the Total Environment} 635. The Authors: 1191--1204.
+doi:\href{https://doi.org/10.1016/j.scitotenv.2018.03.323}{10.1016/j.scitotenv.2018.03.323}.
+
+\hypertarget{ref-Colvin2016}{}
+Colvin, R. M., G. Bradd Witt, and Justine Lacey. 2016. ``Approaches to
+identifying stakeholders in environmental management: Insights from
+practitioners to go beyond the 'usual suspects'.'' \emph{Land Use
+Policy} 52. Elsevier Ltd: 266--76.
+doi:\href{https://doi.org/10.1016/j.landusepol.2015.12.032}{10.1016/j.landusepol.2015.12.032}.
+
+\hypertarget{ref-Davidson2013}{}
+Davidson, Marc D. 2013. ``On the relation between ecosystem services,
+intrinsic value, existence value and economic valuation.''
+\emph{Ecological Economics} 95. Elsevier B.V.: 171--77.
+doi:\href{https://doi.org/10.1016/j.ecolecon.2013.09.002}{10.1016/j.ecolecon.2013.09.002}.
+
+\hypertarget{ref-Dickman2010}{}
+Dickman, A. J. 2010. ``Complexities of conflict: The importance of
+considering social factors for effectively resolving human-wildlife
+conflict.'' \emph{Animal Conservation} 13 (5): 458--66.
+doi:\href{https://doi.org/10.1111/j.1469-1795.2010.00368.x}{10.1111/j.1469-1795.2010.00368.x}.
+
+\hypertarget{ref-Dickman2014}{}
+Dickman, Amy J., Leela Hazzah, Chris Carbone, and Sarah M. Durant. 2014.
+``Carnivores, culture and 'contagious conflict': Multiple factors
+influence perceived problems with carnivores in Tanzania's Ruaha
+landscape.'' \emph{Biological Conservation} 178. Elsevier Ltd: 19--27.
+doi:\href{https://doi.org/10.1016/j.biocon.2014.07.011}{10.1016/j.biocon.2014.07.011}.
+
+\hypertarget{ref-Ferguson2015}{}
+Ferguson, Peter. 2015. ``The Green Economy Agenda: Business as Usual or
+Transformational Discourse?'' Journal Article. \emph{Environmental
+Politics} 24 (1): 17--37.
+doi:\href{https://doi.org/10.1080/09644016.2014.919748}{10.1080/09644016.2014.919748}.
+
+\hypertarget{ref-Fiutem1996}{}
+Fiutem, T., and M. Antoniol. n.d. ``A Cliche-Based Environment to
+Support Architectural Reverse Engineering.'' Conference Proceedings. In
+\emph{1996 Proceedings of International Conference on Software
+Maintenance}, 319--28.
+doi:\href{https://doi.org/10.1109/ICSM.1996.565035}{10.1109/ICSM.1996.565035}.
+
+\hypertarget{ref-Fu2018}{}
+Fu, Qi, Ying Hou, Bo Wang, Xu Bi, Bo Li, and Xinshi Zhang. 2018.
+``Scenario analysis of ecosystem service changes and interactions in a
+mountain-oasis-desert system: a case study in Altay Prefecture, China.''
+\emph{Scientific Reports} 8 (1): 1--13.
+doi:\href{https://doi.org/10.1038/s41598-018-31043-y}{10.1038/s41598-018-31043-y}.
+
+\hypertarget{ref-Gerstner2017}{}
+Gerstner, Katharina, David Moreno-Mateos, Jessica Gurevitch, Michael
+Beckmann, Stephan Kamback, Holly P. Jones, and Ralf Seppelt. 2017.
+``Will your paper be used in a meta-analysis? Make the reach of your
+research broader and longer lasting.'' \emph{Methods in Ecology and
+Evolution} 8: 777--84.
+doi:\href{https://doi.org/10.1111/2041-210X.12758}{10.1111/2041-210X.12758}.
+
+\hypertarget{ref-Halpern2008}{}
+Halpern, B.S., S. Walbridge, K.A. Selkoe, C.V. Kappel, F. Micheli, C.
+D'Argrosa, J.F. Bruno, et al. 2008. ``A Global Map of Human Impact on
+Marine Ecosystems.'' \emph{Science} 319 (February): 948--53.
+doi:\href{https://doi.org/10.1111/2041-210X.12109}{10.1111/2041-210X.12109}.
+
+\hypertarget{ref-Hampton2013}{}
+Hampton, S.E., C.A. Strasser, J.J. Tewksbury, W.K. Gram, A.E. Budden,
+A.L. Batcheller, C.S. Duke, and J.H. Porter. 2013. ``Big Data and the
+Future of Ecology.'' Journal Article. \emph{Frontiers in Ecology \& the
+Environment} 11: 156--62.
+
+\hypertarget{ref-Hao2018}{}
+Hao, Jing. 2018. ``Reconsidering cause inside the clause in scientific
+discourse-from a discourse semantic perspective in systemic functional
+linguistics.'' \emph{Text and Talk} 38 (5): 525--50.
+doi:\href{https://doi.org/10.1515/text-2018-0013}{10.1515/text-2018-0013}.
+
+\hypertarget{ref-Iacona2018}{}
+Iacona, Gwenllian D., William J. Sutherland, Bonnie Mappin, Vanessa M.
+Adams, Paul R. Armsworth, Tim Coleshaw, Carly Cook, et al. 2018.
+``Standardized reporting of the costs of management interventions for
+biodiversity conservation.'' \emph{Conservation Biology} 32 (5):
+979--88.
+doi:\href{https://doi.org/10.1111/cobi.13195}{10.1111/cobi.13195}.
+
+\hypertarget{ref-Johnson2006}{}
+Johnson, Arlyne, C. Vongkhamheng, M. Hedemark, and T. Saithongdam. 2006.
+``Effects of human-carnivore conflict on tiger (Panthera tigris) and
+prey populations in Lao PDR.'' \emph{Animal Conservation} 9 (4):
+421--30.
+doi:\href{https://doi.org/10.1111/j.1469-1795.2006.00049.x}{10.1111/j.1469-1795.2006.00049.x}.
+
+\hypertarget{ref-Jones2009}{}
+Jones, Peter G., and Philip K. Thornton. 2009. ``Croppers to livestock
+keepers: livelihood transitions to 2050 in Africa due to climate
+change.'' \emph{Environmental Science and Policy} 12 (4): 427--37.
+doi:\href{https://doi.org/10.1016/j.envsci.2008.08.006}{10.1016/j.envsci.2008.08.006}.
+
+\hypertarget{ref-Karttunen2018}{}
+Karttunen, Kalle, Anssi Ahtikoski, Susanna Kujala, Hannu Törmä, Jouko
+Kinnunen, Hannu Salminen, Saija Huuskonen, et al. 2018. ``Regional
+socio-economic impacts of intensive forest management, a CGE approach.''
+\emph{Biomass and Bioenergy} 118 (July). Elsevier Ltd: 8--15.
+doi:\href{https://doi.org/10.1016/j.biombioe.2018.07.024}{10.1016/j.biombioe.2018.07.024}.
+
+\hypertarget{ref-Kelly2006}{}
+Kelly, Clint. 2006. ``Replicating Empirical Research in Behavioral
+Ecology: How and Why It Should Be Done but Rarely Ever Is.'' Journal
+Article. \emph{The Quarterly Review of Biology} 81: 221--36.
+
+\hypertarget{ref-Koontz2018}{}
+Koontz, Tomas M., and Craig W. Thomas. 2018. ``Use of science in
+collaborative environmental management: Evidence from local watershed
+partnerships in the Puget Sound.'' \emph{Environmental Science and
+Policy} 88 (June). Elsevier: 17--23.
+doi:\href{https://doi.org/10.1016/j.envsci.2018.06.007}{10.1016/j.envsci.2018.06.007}.
+
+\hypertarget{ref-Kotiaho2002}{}
+Kotiaho, J.S., and J.L. Tomkins. 2002. ``Meta-analysis, can it ever
+fail?'' \emph{Oikos} 96 (3): 551--53.
+
+\hypertarget{ref-Lewinsohn2014}{}
+Lewinsohn, Thomas M., José Luiz Attayde, Carlos Roberto Fonseca, Gislene
+Ganade, Leonardo Ré Jorge, Johannes Kollmann, Gerhard E. Overbeck, et
+al. 2014. ``Ecological literacy and beyond: Problem-based learning for
+future professionals.'' \emph{Ambio} 44 (2): 154--62.
+doi:\href{https://doi.org/10.1007/s13280-014-0539-2}{10.1007/s13280-014-0539-2}.
+
+\hypertarget{ref-Lindsey2009}{}
+Lindsey, P. A., S. S. Romañach, and H. T. Davies-Mostert. 2009. ``The
+importance of conservancies for enhancing the value of game ranch land
+for large mammal conservation in southern Africa.'' \emph{Journal of
+Zoology} 277 (2): 99--105.
+doi:\href{https://doi.org/10.1111/j.1469-7998.2008.00529.x}{10.1111/j.1469-7998.2008.00529.x}.
+
+\hypertarget{ref-Lortie2014}{}
+Lortie, Christopher J. 2014. ``Formalized synthesis opportunities for
+ecology: Systematic reviews and meta-analyses.'' \emph{Oikos} 123 (8):
+897--902.
+doi:\href{https://doi.org/10.1111/j.1600-0706.2013.00970.x}{10.1111/j.1600-0706.2013.00970.x}.
+
+\hypertarget{ref-Lortie2018}{}
+Lortie, Christopher J., A. Filazzola, R. Kelsey, Abigail K. Hart, and H.
+S. Butterfield. 2018. ``Better late than never: a synthesis of strategic
+land retirement and restoration in California.'' \emph{Ecosphere} 9 (8):
+e02367. doi:\href{https://doi.org/10.1002/ecs2.2367}{10.1002/ecs2.2367}.
+
+\hypertarget{ref-Macpherson2017}{}
+Macpherson, Ignacio, and Ignacio Segarra. 2017. ``Commentary: Grand
+Challenge: ELSI in a Changing Global Environment.'' Journal Article.
+\emph{Frontiers in Genetics} 8: 135.
+\url{https://www.frontiersin.org/article/10.3389/fgene.2017.00135}.
+
+\hypertarget{ref-McDonald2010}{}
+McDonald-Madden, Eve, William J. M. Probert, Cindy E. Hauser, Michael C.
+Runge, Hugh P. Possingham, Menna E. Jones, Joslin L. Moore, Tracy M.
+Rout, Peter A. Vesk, and Brendan A. Wintle. 2010. ``Active Adaptive
+Conservation of Threatened Species in the Face of Uncertainty.'' Journal
+Article. \emph{Ecological Applications} 20 (5): 1476--89.
+doi:\href{https://doi.org/10.1890/09-0647.1}{10.1890/09-0647.1}.
+
+\hypertarget{ref-McKinley2017}{}
+McKinley, Duncan C., Abe J. Miller-Rushing, Heidi L. Ballard, Rick
+Bonney, Hutch Brown, Susan C. Cook-Patton, Daniel M. Evans, et al. 2017.
+``Citizen science can improve conservation science, natural resource
+management, and environmental protection.'' \emph{Biological
+Conservation} 208. Elsevier Ltd: 15--28.
+doi:\href{https://doi.org/10.1016/j.biocon.2016.05.015}{10.1016/j.biocon.2016.05.015}.
+
+\hypertarget{ref-McKinnon2015}{}
+McKinnon, Madeleine. 2015. ``Sustainability: Map the evidence.''
+\emph{Nature} 528 (7581): 185--87.
+doi:\href{https://doi.org/10.1017/CBO9781107415324.004}{10.1017/CBO9781107415324.004}.
+
+\hypertarget{ref-Miguel2017}{}
+Miguel, Thiago Barros, José Max Barbosa Oliveira-Junior, Raphael
+Ligeiro, and Leandro Juen. 2017. ``Odonata (Insecta) as a tool for the
+biomonitoring of environmental quality.'' \emph{Ecological Indicators}
+81 (March). Elsevier: 555--66.
+doi:\href{https://doi.org/10.1016/j.ecolind.2017.06.010}{10.1016/j.ecolind.2017.06.010}.
+
+\hypertarget{ref-Mosnier2017}{}
+Mosnier, Claire, Anne Duclos, Jacques Agabriel, and Armelle Gac. 2017.
+``What prospective scenarios for 2035 will be compatible with reduced
+impact of French beef and dairy farm on climate change?''
+\emph{Agricultural Systems} 157 (August). Elsevier: 193--201.
+doi:\href{https://doi.org/10.1016/j.agsy.2017.07.006}{10.1016/j.agsy.2017.07.006}.
+
+\hypertarget{ref-Naidoo2006}{}
+Naidoo, Robin, Andrew Balmford, Paul J. Ferraro, Stephen Polasky, Taylor
+H. Ricketts, and Mathieu Rouget. 2006. ``Integrating economic costs into
+conservation planning.'' \emph{Trends in Ecology and Evolution} 21 (12):
+681--87.
+doi:\href{https://doi.org/10.1016/j.tree.2006.10.003}{10.1016/j.tree.2006.10.003}.
+
+\hypertarget{ref-Nielsen2017}{}
+Nielsen, Jacqueline A., Eva Grøndahl, Ragan M. Callaway, Katharine J.M.
+Dickinson, and Bodil K. Ehlers. 2017. ``Home and away: biogeographical
+comparison of species diversity in Thymus vulgaris communities.''
+\emph{Biological Invasions} 19 (9). Springer International Publishing:
+2533--42.
+doi:\href{https://doi.org/10.1007/s10530-017-1461-x}{10.1007/s10530-017-1461-x}.
+
+\hypertarget{ref-Pace2010}{}
+Pace, Michael L., Stephanie E. Hampton, Karin E. Limburg, Elena M.
+Bennett, Elizabeth M. Cook, Ann E. Davis, J. Morgan Grove, et al. 2010.
+``Communicating with the public: Opportunities and rewards for
+individual ecologists.'' \emph{Frontiers in Ecology and the Environment}
+8 (6): 292--98.
+doi:\href{https://doi.org/10.1890/090168}{10.1890/090168}.
+
+\hypertarget{ref-Reed2008}{}
+Reed, Mark S. 2008. ``Stakeholder participation for environmental
+management: A literature review.'' \emph{Biological Conservation} 141
+(10): 2417--31.
+doi:\href{https://doi.org/10.1016/j.biocon.2008.07.014}{10.1016/j.biocon.2008.07.014}.
+
+\hypertarget{ref-Roy-Byrne2010}{}
+Roy-Byrne, Peter, Michelle G. Craske, Greer Sullivan, Raphael D. Rose,
+Mark J. Edlund, Ariel J. Lang, Alexander Bystritsky, et al. 2010.
+``Delivery of evidence-based treatment for multiple anxiety disorders in
+primary care: A randomized controlled trial.'' \emph{JAMA - Journal of
+the American Medical Association} 303 (19): 1921--8.
+doi:\href{https://doi.org/10.1001/jama.2010.608}{10.1001/jama.2010.608}.
+
+\hypertarget{ref-Ruxton2017}{}
+Ruxton, G.D., and N. Colgrave. 2017. \emph{Experimental Design for the
+Life Sciences}. Book. Second. Oxford, UK: Oxford University Press.
+
+\hypertarget{ref-Sandel2015}{}
+Sandel, Brody. 2015. ``Towards a taxonomy of spatial scale-dependence.''
+\emph{Ecography} 38 (4): 358--69.
+doi:\href{https://doi.org/10.1111/ecog.01034}{10.1111/ecog.01034}.
+
+\hypertarget{ref-Tilman2018}{}
+Tilman, Andrew R., Simon Levin, and James R. Watson. 2018.
+``Revenue-sharing clubs provide economic insurance and incentives for
+sustainability in common-pool resource systems.'' \emph{Journal of
+Theoretical Biology} 454. Elsevier Ltd: 205--14.
+doi:\href{https://doi.org/10.1016/j.jtbi.2018.06.003}{10.1016/j.jtbi.2018.06.003}.
+
+\hypertarget{ref-Towns2009}{}
+Towns, Lindsay, A. E. Derocher, I. Stirling, N. J. Lunn, and D. Hedman.
+2009. ``Spatial and temporal patterns of problem polar bears in
+Churchill, Manitoba.'' \emph{Polar Biology} 32 (10): 1529--37.
+doi:\href{https://doi.org/10.1007/s00300-009-0653-y}{10.1007/s00300-009-0653-y}.
+
+\hypertarget{ref-Tranfield2003}{}
+Tranfield, David, David Denyer, and Palminder Smart. 2003. ``Towards a
+Methodology for Developing Evidence-Informed Management Knowledge by
+Means of Systematic Review'' 14: 207--22.
+
+\hypertarget{ref-Vogt2018}{}
+Vogt, R.J., S. Sharma, and P.R. Leavitt. 2018. ``Direct and interactive
+effects of climate, meteorology, river hydrology, and lake
+characteristics on water quality in productive lakes of the Canadian
+Prairies.'' \emph{Canadian Journal of Fisheries and Aquatic Sciences} 75
+(1): 47--59.
+doi:\href{https://doi.org/10.1139/cjfas-2016-0520}{10.1139/cjfas-2016-0520}.
+
+\hypertarget{ref-Williams2016}{}
+Williams, Byron K., and Eleanor D. Brown. 2016. ``Technical Challenges
+in the Application of Adaptive Management.'' Journal Article.
+\emph{Biological Conservation} 195: 255--63.
+doi:\href{https://doi.org/https://doi.org/10.1016/j.biocon.2016.01.012}{https://doi.org/10.1016/j.biocon.2016.01.012}.
+
+\hypertarget{ref-Zhu2010}{}
+Zhu, Lizhong, Li Lu, and Dong Zhang. 2010. ``Mitigation and Remediation
+Technologies for Organic Contaminated Soils.'' Journal Article.
+\emph{Frontiers of Environmental Science \& Engineering in China} 4 (4):
+373--86.
+doi:\href{https://doi.org/10.1007/s11783-010-0253-7}{10.1007/s11783-010-0253-7}.
+
+
+
+\end{document}
