@@ -1,0 +1,42 @@
+---
+title: Simple principles for engineering reproducible solutions to environmental management challenges.
+preprint: true
+author: 
+  - name: Christopher J. Lortie
+    affiliation: 1
+    corresponding: true
+    email: lortie@yorku.ca
+  - name: Malory Owen
+    affiliation: 1
+affiliation:
+  - code: 1
+    address: Biology, York University, 4700 Keele St. Toronto, ON, Canada, M3J1P3
+  
+  
+abstract: >
+  An environmental management challenge is an opportunity to use fundamental science to inform evidence-based decisions for  environmental stakeholders and conservationists.  Contemporary science is embracing open science and increasingly conscious of reproduciblility.  Synergistically, applying these two paradigms in concert advances our capacity to move beyond context dependency and singlular thinking to reverse engineer solutions from published scientific evidence associated with one challenge to many. Herein, we provide a short list of principles that can guide those that seek solutions to address environmental management through primary scientific literature.
+header-includes: >
+  \usepackage{lipsum}
+bibliography: bibliography.bib
+output:
+  rticles::peerj_article: default
+  bookdown::pdf_book:
+    base_format: rticles::peerj_article # for using bookdown features like \@ref()
+---
+
+# Article type {-}  
+Perspective.
+
+
+# Acknowledgments {-}
+
+This synthesis was supported by NSERC DG to CJL, and FGS funding to MO from York University.
+
+# Author Biographies {-}  
+
+Christopher J. Lortie is a professor of integrative ecology at York University in Canada and a Senior Research Fellow at the National Center for Ecological Analysis and Synthesis at The University of California Santa Barbara.  Malory Owen is an ecologist and environmental scientist at York University.
+
+# Data archiving {-}  
+
+There are no data to archive.
+
