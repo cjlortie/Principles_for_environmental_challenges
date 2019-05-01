@@ -2,9 +2,7 @@
 title: Simple principles for engineering reproducible solutions to environmental management challenges.
 preprint: true
 author: na
-
 affiliation:
-
   
   
 abstract: >
@@ -14,11 +12,10 @@ header-includes: >
   \usepackage{lineno}
    \linenumbers
 bibliography: bibliography.bib
-output: 
-  rticles::peerj_article:
-    base_format: rmarkdown::pdf_document # bookdown::pdf_document2 # for using \@ref()
-
-
+output:
+  rticles::peerj_article: default
+  bookdown::pdf_book:
+    base_format: rticles::peerj_article # for using bookdown features like \@ref()
 ---
 
 
