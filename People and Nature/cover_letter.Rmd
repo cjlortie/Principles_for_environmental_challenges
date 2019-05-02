@@ -1,0 +1,25 @@
+---
+title: ""
+output: pdf_document
+---
+**Simple principles for engineering reproducible solutions to environmental management challenges.**  
+
+
+
+Cover letter  
+May 1st, 2019.  
+--------------------------------
+
+Dear Professor Gaston and Editorial Board,
+
+In collaborating with environmental stakeholders, conservationists, researchers, and students, it is evident that accessibility of the scientific literature is a limitation in supporting evidence-based decision making. We mean this very broadly (in addition to publisher paywall issues). Reuse and reproducibility are major issues in all scientific endeavours including research relevant to connecting people and nature (and the science of nature such as ecology). Here, we present ten simple principles for both scientists and practitioners to consider in making this scientific literature more functional for decisioning critical grand challenges we face with respect to the human environment. This is a brief, direct perspective contribution.
+
+Please do not hesitate to contact us if any clarification is needed on this perspective piece. We admire the vision of People and Nature, and we are confident that is manuscript is a great fit. Open access is critical to ensure that managers and stakeholders can engage with the principles proposed.  
+
+
+All the best,  
+Christopher Lortie and Malory Owen.  
+<lortie@yorku.ca>  
+
+
+
